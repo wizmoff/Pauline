@@ -1,0 +1,3 @@
+[submodule "external/D3D12MA"]
+	path = external/D3D12MA
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/D3D12MemoryAllocator.git
