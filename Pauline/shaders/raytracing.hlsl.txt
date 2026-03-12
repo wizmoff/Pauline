@@ -1,0 +1,32 @@
+//
+// Minimal ray tracing shader library for Pauline
+// Compile OFFLINE with: dxc.exe -T lib_6_3 -enable-16bit-types -Fo raytracing.dxil shaders/raytracing.hlsl
+// (This file is compiled offline; Visual Studio build system doesn't fully support DXR compilation)
+//
+
+cbuffer FrameConstants : register(b0)
+{
+    float4x4 invViewProj;
+    float3 cameraPos;
+    uint frameIndex;
+};
+
+// For offline DXC compilation only - Visual Studio doesn't understand these types
+// RaytracingAccelerationStructure Scene : register(t0);
+// RWTexture2D<float4> Output : register(u0);
+
+// These are placeholders - the actual shader is compiled offline
+[shader("raygeneration")]
+void RayGen()
+{
+}
+
+[shader("miss")]
+void Miss()
+{
+}
+
+[shader("closesthit")]
+void ClosestHit()
+{
+}
