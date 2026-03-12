@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Pauline.vcxproj" />
+  <Project Path="Pauline.vcxproj" Id="f5c02f0f-be50-4cd4-aaf0-983e8d02de45" />
 </Solution>
