@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <wrl/client.h>
 #include <iostream>
-#include "include/pauline.h"
+#include "../include/pauline.h"
 
 #pragma comment(lib, "d3d12.lib")
 #pragma comment(lib, "dxgi.lib")
